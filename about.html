@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Design Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Finlandica:ital,wght@1,400;1,500;1,700&family=Lobster&family=Oswald:wght@300&family=Sedgwick+Ave&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <section class="sub-header">
+
+        <nav>
+            <a href="index.html"><img src="images/th1.jfif"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Course</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>About Us</h1>
+
+    </section>
+
+
+    <!-----------about us content--------->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the Worlds largest University</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo quaerat perspiciatis labore officiis.
+                    Iusto hic magnam distinctio itaque laborum nemo recusandae obcaecati sequi, sit dolor perferendis
+                    laboriosam voluptatibus tempore ducimus veritatis molestias amet nesciunt, mollitia doloremque at
+                    quaerat cum incidunt omnis voluptas. Quod itaque assumenda ad aliquam, omnis repellendus reiciendis.
+                </p>
+                <a href="">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                 <img src="images/th.jfif">
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <!-----------Footer-------->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In explicabo fuga eaque cumque voluptatibus eos,
+            neque facere eveniet rem minus, alias odio reiciendis? <br>Consequuntur, voluptates. Libero animi ex, atque
+            laborum quod amet, labore illo, ad ipsa deleniti quasi. <br>Aliquam alias sequi beatae ea sunt nostrum
+            deleniti
+            cumque at perferendis quam laudantium ipsa minima nesciunt, dicta laboriosam, vitae, earum in accusantium.
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made With <i class="fa fa-heart-o"></i> MO Amir Khan</p>
+    </section>
+
+
+    <!------java Scipt for Toggle menu--->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
